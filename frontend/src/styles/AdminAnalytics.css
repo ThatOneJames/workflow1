@@ -1,0 +1,23 @@
+.analyticsContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.dropdownContainer {
+    margin-bottom: 20px;
+}
+
+.chartsContainer {
+    display: flex !important;
+    justify-content: space-between !important; /* Ensures space between the charts */
+    flex-direction: row !important; /* Ensures charts are aligned horizontally */
+    flex-wrap: nowrap !important; /* Prevents wrapping to a new line */
+}
+
+.chart {
+    flex: 1 !important; /* Ensures each chart takes up equal space */
+    margin: 0 10px !important; /* Adds some margin between the charts */
+}
